@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Century PLA Pink Med Wipe" version="2017-08-20 11:28:22" app="S3D-Software 4.0.0">
+<profile name="Century PLA Pink Med Wipe" version="2017-08-20 12:11:50" app="S3D-Software 4.0.0">
   <baseProfile>Default</baseProfile>
   <printMaterial></printMaterial>
   <printQuality></printQuality>
@@ -168,7 +168,7 @@
   <useFixedBridgingAngle>0</useFixedBridgingAngle>
   <fixedBridgingAngle>0</fixedBridgingAngle>
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
-  <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
+  <filamentDiameters>1.65|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
   <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
   <filamentDensities>1.25|1.25|1.25|1.25|1.25|1.25</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
