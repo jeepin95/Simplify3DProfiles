@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="PLA Hatchbox Blue" version="2017-09-10 18:25:55" app="S3D-Software 4.0.0">
+<profile name="PLA Hatchbox Blue" version="2017-09-10 20:26:33" app="S3D-Software 4.0.0">
   <baseProfile>Default</baseProfile>
   <printMaterial></printMaterial>
   <printQuality></printQuality>
@@ -9,7 +9,7 @@
     <diameter>0.4</diameter>
     <autoWidth>1</autoWidth>
     <width>0.48</width>
-    <extrusionMultiplier>0.96</extrusionMultiplier>
+    <extrusionMultiplier>0.94</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>1.5</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
@@ -62,7 +62,7 @@
   <infillExtruder>0</infillExtruder>
   <internalInfillPattern>Fast Honeycomb</internalInfillPattern>
   <externalInfillPattern>Rectilinear</externalInfillPattern>
-  <infillPercentage>15</infillPercentage>
+  <infillPercentage>5</infillPercentage>
   <outlineOverlapPercentage>40</outlineOverlapPercentage>
   <infillExtrusionWidthPercentage>100</infillExtrusionWidthPercentage>
   <minInfillLength>5</minInfillLength>
@@ -168,7 +168,7 @@
   <useFixedBridgingAngle>0</useFixedBridgingAngle>
   <fixedBridgingAngle>0</fixedBridgingAngle>
   <applyBridgingToPerimeters>0</applyBridgingToPerimeters>
-  <filamentDiameters>1.65|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
+  <filamentDiameters>1.75|1.75|1.75|1.75|1.75|1.75</filamentDiameters>
   <filamentPricesPerKg>25|25|25|25|25|25</filamentPricesPerKg>
   <filamentDensities>1.25|1.25|1.25|1.25|1.25|1.25</filamentDensities>
   <useMinPrintHeight>0</useMinPrintHeight>
