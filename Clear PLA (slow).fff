@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Clear PLA (slow)" version="2018-09-18 19:09:36" app="S3D-Software 4.0.1">
+<profile name="Clear PLA (slow)" version="2018-12-19 19:03:02" app="S3D-Software 4.1.1">
   <baseProfile>Default</baseProfile>
   <printMaterial></printMaterial>
   <printQuality></printQuality>
@@ -21,7 +21,7 @@
     <wipeDistance>5</wipeDistance>
   </extruder>
   <primaryExtruder>0</primaryExtruder>
-  <layerHeight>0.2</layerHeight>
+  <layerHeight>0.26</layerHeight>
   <topSolidLayers>4</topSolidLayers>
   <bottomSolidLayers>4</bottomSolidLayers>
   <perimeterOutlines>4</perimeterOutlines>
@@ -72,7 +72,7 @@
   <externalInfillAngles>45,-45</externalInfillAngles>
   <generateSupport>1</generateSupport>
   <supportExtruder>0</supportExtruder>
-  <supportInfillPercentage>25</supportInfillPercentage>
+  <supportInfillPercentage>15</supportInfillPercentage>
   <supportExtraInflation>0</supportExtraInflation>
   <supportBaseLayers>0</supportBaseLayers>
   <denseSupportExtruder>0</denseSupportExtruder>
@@ -83,22 +83,18 @@
   <supportUpperSeparationLayers>1</supportUpperSeparationLayers>
   <supportLowerSeparationLayers>1</supportLowerSeparationLayers>
   <supportType>0</supportType>
-  <supportGridSpacing>4</supportGridSpacing>
-  <maxOverhangAngle>60</maxOverhangAngle>
+  <supportGridSpacing>3</supportGridSpacing>
+  <maxOverhangAngle>45</maxOverhangAngle>
   <supportAngles>45,135</supportAngles>
   <temperatureController name="Primary Extruder">
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>0</isHeatedBed>
-    <relayBetweenLayers>0</relayBetweenLayers>
-    <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
     <setpoint layer="1" temperature="220"/>
   </temperatureController>
   <temperatureController name="Bed">
     <temperatureNumber>0</temperatureNumber>
     <isHeatedBed>1</isHeatedBed>
-    <relayBetweenLayers>0</relayBetweenLayers>
-    <relayBetweenLoops>0</relayBetweenLoops>
     <stabilizeAtStartup>1</stabilizeAtStartup>
     <setpoint layer="1" temperature="75"/>
   </temperatureController>
@@ -155,7 +151,7 @@
   <celebration>0</celebration>
   <celebrationSong>Looney Toons</celebrationSong>
   <postProcessing></postProcessing>
-  <defaultSpeed>3300</defaultSpeed>
+  <defaultSpeed>2700</defaultSpeed>
   <outlineUnderspeed>0.55</outlineUnderspeed>
   <solidInfillUnderspeed>0.55</solidInfillUnderspeed>
   <supportUnderspeed>0.5</supportUnderspeed>
