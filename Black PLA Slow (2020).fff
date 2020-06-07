@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<profile name="Black PLA Slow (2020)" version="2020-04-28 21:52:17" app="S3D-Software 4.1.2">
+<profile name="Black PLA Slow (2020)" version="2020-06-06 18:57:40" app="S3D-Software 4.1.2">
   <baseProfile>Default</baseProfile>
   <printMaterial></printMaterial>
   <printQuality></printQuality>
@@ -9,7 +9,7 @@
     <diameter>0.4</diameter>
     <autoWidth>1</autoWidth>
     <width>0.48</width>
-    <extrusionMultiplier>1.02</extrusionMultiplier>
+    <extrusionMultiplier>1.03</extrusionMultiplier>
     <useRetract>1</useRetract>
     <retractionDistance>1.4</retractionDistance>
     <extraRestartDistance>0</extraRestartDistance>
@@ -22,9 +22,9 @@
   </extruder>
   <primaryExtruder>0</primaryExtruder>
   <layerHeight>0.2</layerHeight>
-  <topSolidLayers>3</topSolidLayers>
-  <bottomSolidLayers>3</bottomSolidLayers>
-  <perimeterOutlines>3</perimeterOutlines>
+  <topSolidLayers>4</topSolidLayers>
+  <bottomSolidLayers>4</bottomSolidLayers>
+  <perimeterOutlines>4</perimeterOutlines>
   <printPerimetersInsideOut>0</printPerimetersInsideOut>
   <startPointOption>2</startPointOption>
   <startPointOriginX>0</startPointOriginX>
@@ -150,7 +150,7 @@
   <exportFileFormat>gcode</exportFileFormat>
   <celebration>0</celebration>
   <celebrationSong>Looney Toons</celebrationSong>
-  <postProcessing></postProcessing>
+  <postProcessing>curl --data-binary &quot;@[output_filepath]&quot; &quot;http://192.168.0.131/rr_upload?name=gcodes/[output_filename].gcode&quot;,curl &quot;http://192.168.0.131/rr_disconnect&quot;</postProcessing>
   <defaultSpeed>2100</defaultSpeed>
   <outlineUnderspeed>0.55</outlineUnderspeed>
   <solidInfillUnderspeed>0.55</solidInfillUnderspeed>
@@ -181,7 +181,7 @@
   <retractionMinTravel>3</retractionMinTravel>
   <retractWhileWiping>0</retractWhileWiping>
   <onlyWipeOutlines>1</onlyWipeOutlines>
-  <avoidCrossingOutline>1</avoidCrossingOutline>
+  <avoidCrossingOutline>0</avoidCrossingOutline>
   <maxMovementDetourFactor>10</maxMovementDetourFactor>
   <toolChangeRetractionDistance>12</toolChangeRetractionDistance>
   <toolChangeExtraRestartDistance>-0.5</toolChangeExtraRestartDistance>
